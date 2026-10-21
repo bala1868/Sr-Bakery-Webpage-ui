@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-cart Sr Bakes</title>
+     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg primary ">
+       <div class="container-fluid">
+            <a class="navbar-brand primary fs-2 text-uppercase fw-bold p-2" href="index.html">
+                <img src="images/brand-logo.jpg" class="m-1 brand-logo" style="width: 40px;height: 40px; border-radius: 50%;">
+                 Sr Bakes
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon mb-3 ">
+                    <img src="images/menu-icon.jpg" class="nav-icon-img">
+                </span>
+            </button>
+        <div class="collapse navbar-collapse " id="navbarContent">
+                <ul class="navbar-nav ms-auto fs-5 p-2 fw-bold gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link primary   " href="index.html">
+                            Home
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link primary" href="about.html">
+                            About
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link primary " href="menu.html">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary active" href="cart.html">
+                            Cart <span class="bg-warning p-0 active" style="border-radius: 50%; width:20px; height:20px;">3</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+        </div>
+       </div>
+    </nav>
+
+  
+
+<section class="cart-section">
+    <div class="container mb-5 py-5">
+        <div class="mb-4">
+            <h1 class="famous-title display-4 fw-bold text-center">
+                Your Shopping Cart
+            </h1>
+            <p class="text-center text-secondary fw-bold">
+                All your favourite treats in one place.
+            </p>
+        </div>
+
+        <div class="row g-4 mt-5">
+
+            <div class="col-lg-8">
+                <div class="cart-container p-3 p-md-4">
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="fw-bold mb-0 famous-title">
+                            Cart Items (1)
+                        </h4>
+
+                        <a href="menu.html"
+                           class="text-danger text-decoration-none remove">
+                            Continue Shopping
+                        </a>
+                    </div>
+                    <div class="row align-items-center g-3">
+
+                        <div class="col-4 col-md-3">
+                            <img src="images/redvelvet.jpg"
+                                 class="cart-product-img mt-2 rounded"
+                                 alt="Red Velvet Cake">
+                        </div>
+
+                        <div class="col-8 col-md-9">
+
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <h5 class="fw-bold famous-title mt-2">
+                                    Red Velvet Cake
+                                </h5>
+                                <p class="fw-bold mt-2">₹600</p>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-3">
+
+                                <div>
+                                    <button type="button"
+                                            aria-label="Decrease quantity"
+                                            class="rounded inc-btn fw-bold">−</button>
+
+                                    <span class="fw-bold mx-2">1</span>
+
+                                    <button type="button"
+                                            aria-label="Increase quantity"
+                                            class="rounded inc-btn fw-bold">+</button>
+                                </div>
+
+                                <strong>₹600</strong>
+
+                                <a href="#"
+                                   class="text-danger text-decoration-none remove">
+                                    Remove
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr class="my-4">
+
+                   
+
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="cart-summary p-4">
+
+                    <h4 class="fw-bold mb-4 famous-title">
+                        Order Summary
+                    </h4>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Subtotal</span>
+                        <strong>₹600</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Delivery</span>
+                        <strong>₹60</strong>
+                    </div>
+
+                    <hr>
+
+                    <div class="d-flex justify-content-between mb-4">
+                        <span>Total</span>
+                        <strong>₹660</strong>
+                    </div>
+
+                    <a href="#"
+                       class="btn btn-primary w-100 py-2">
+                        Proceed to Checkout
+                    </a>
+
+                    <p class="text-center mt-3 mb-0 small">
+                        Freshly baked with love!
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <div class="container-fluid mt-5 ">
+         <footer class="row primary text-white py-4 justify-content-center">
+
+            <div class="col-12 col-md-4 p-3">
+                <h2 class="text-center footer-title">SR Bakes</h2>
+                <p class="text-center text-light">
+                Freshly baked, made with love. We bring you delicious
+                cakes, pastries, cookies, and freshly baked bread,
+                prepared with quality ingredients and care.
+                </p>
+            </div>
+
+         <div class="col-12 col-md-3 p-3">
+             <h4 class="text-center footer-title">Quick Links</h4>
+             <ul class="navbar-nav text-center">
+                 <li class="nav-item">
+                     <a href="index.html" class="nav-link text-white">Home</a>
+                 </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link text-white">About Us</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="menu.html" class="nav-link text-white">Our Menu</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="cart.html" class="nav-link text-white">Go to Your Cart</a>
+                 </li>
+              </ul>
+          </div>
+
+         <div class="col-12 col-md-4 p-3">
+                <h4 class="text-center footer-title">Contact Us</h4>
+              <p class="text-center">
+                      <i class="bi bi-geo-alt-fill me-2"></i>
+                      Address: Anthiyur,Erode 
+             </p>
+               <p class="text-center">
+                     <i class="bi bi-telephone-fill me-2"></i>
+                  Phone: +91 98999 99999
+               </p>
+               <p class="text-center">
+                  <i class="bi bi-envelope-fill me-2"></i>
+                  Email: hii@srbakes.com
+               </p>
+        </div>
+
+        <div class="col-12 text-center border-top border-light mt-3 pt-3 " style="width: 90%;">
+            <p class="mb-0">
+                &copy; 2026 SR Bakes. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+    </div>
+
+
+    
+</body>
+</html>
